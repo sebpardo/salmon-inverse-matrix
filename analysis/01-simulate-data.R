@@ -73,4 +73,4 @@ simuldat5 <-  simulate_salmon(years = years, smolt_n = smolt_n,
 simuldat6 <- simulate_salmon(years = years, smolt_n = smolt_n, 
                               S1 = S1, S2 = S2, Pr = runif(nyears, 0.05, 0.3), obs_cv = obs_cv) # variable Pr, mixed 2SW dominated
 
-save(simuldat1, simuldat2, simuldat3, simuldat4, simuldat5, simuldat6, file = "simulated-data.rda")
+save(simuldat1, simuldat2, simuldat3, simuldat4, simuldat5, simuldat6, file = "data/simulated-data.rda")

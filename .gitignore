@@ -1,5 +1,12 @@
+data/*.rda
+data/*.rds
 figures/*.png
 figures/*.pdf
+oldfigures/
+olddata/
+oldcode/
+raw-data/
+presentation/
 *.pdf
 *.png
 *.jpg
@@ -21,5 +28,5 @@ figures/*.pdf
 *.fff
 *.fls
 *.out
-data/*.rda
-data/*.rds
+*.html
+*.Rmd
